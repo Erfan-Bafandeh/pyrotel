@@ -4,6 +4,7 @@ pyrotel is a good library for telegram bots
 --------------------------------------------------
 
 <h2>how to start client?</h2>
+
 ```python
 from pyrotel import *
 
@@ -16,6 +17,7 @@ bot = client(api_token)
 --------------------------------------------------
 
 <h2>how to change library app to bale?</h2>
+
 ```python
 bot = client("TOKEN", app="bale")
 ```
