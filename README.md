@@ -24,7 +24,7 @@ bot = client("TOKEN", app="bale")
 
 --------------------------------------------------
 
-# how to use pyrotel library methods?
+<h2>how to use pyrotel library methods?</h2>
 
 ```python
 send_message(chat_id, text)
@@ -95,7 +95,8 @@ this method is for get last update from telegram or bale servers.
 
 --------------------------------------------------
 
-# how to use message class?
+<h2>how to use message class?</h2>
+
 ```python
 msg = message(update)
 
@@ -107,7 +108,8 @@ msg.first_name
 
 --------------------------------------------------
 
-# how to make a keyboard in pyrotel library?
+<h2>how to make a keyboard in pyrotel library?</h2>
+
 ```python
 keys = [["buy", "sell"],
 ["support"]]
@@ -118,7 +120,8 @@ this method is for make a keyboard.
 
 --------------------------------------------------
 
-# how to send a keyboard?
+<h2>how to send a keyboard?</h2>
+
 ```python
 bot.send_message(msg.chat_id, "hello wellcome to my bot", reply_markup=keyboard)
 ```
