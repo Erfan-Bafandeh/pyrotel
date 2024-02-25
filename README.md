@@ -1,9 +1,28 @@
 # pyrotel
 pyrotel is a good library for telegram bots
 
+--------------------------------------------------
+
+# how to start client?
+```python
+from pyrotel import *
+
+api_token = "TOKEN"
+
+bot = client(api_token)
+```
+(optional inputs: app)
+
+--------------------------------------------------
+
+**how to change library app to bale?**
+```python
+bot = client("TOKEN", app="bale")
+```
+
+--------------------------------------------------
 
 # how to use pyrotel library methods?
---------------------------------------------------
 
 ```python
 send_message(chat_id, text)
@@ -71,13 +90,6 @@ bot.get_last_update()
 ```
 this method don't get values, too.
 this method is for get last update from telegram or bale servers.
-
---------------------------------------------------
-
-# how to change library app to bale?
-```python
-bot = client("TOKEN", app="bale")
-```
 
 --------------------------------------------------
 
