@@ -15,7 +15,7 @@ bot = client(api_token)
 
 --------------------------------------------------
 
-**how to change library app to bale?**
+<h2>**how to change library app to bale?</h2>
 ```python
 bot = client("TOKEN", app="bale")
 ```
