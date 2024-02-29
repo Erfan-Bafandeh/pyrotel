@@ -2,11 +2,11 @@ from setuptools import setup, find_packages
 
 setup(
     name = 'pyrotel',
-    version = '0.1.3',
+    version = '0.9.0',
     author= 'Erfan Bafandeh',
     author_email = 'user.enbh@gmail.com',
     description = 'pyrotel is a library for telegram bots.',
-    keywords = ['Bot', 'Robot', 'pyrotel'],
+    keywords = ['Bot', 'Robot', 'pyrotel', 'telegram', 'telegrambot'],
     long_description = open("README.md", encoding="utf-8").read(),
     python_requires="~=3.6",
     long_description_content_type = 'text/markdown',
