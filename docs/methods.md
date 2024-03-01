@@ -140,3 +140,59 @@ optional inputs:
 app.get_chat_link(chat_id)
 ```
 optional inputs: 
+
+
+## edit_invite_link
+
+```python
+app.edit_invite_link(chat_id, invite_link, name)
+```
+optional inputs: expire_date, limit_member, creates_join_request
+
+
+## remove_invite_link
+
+```python
+app.remove_invite_link(chat_id, invite_link)
+```
+optional inputs: 
+
+
+## accept_chat_join_request
+
+```python
+app.accept_chat_join_request(chat_id, user_id)
+```
+optional inputs: 
+
+
+## remove_chat_join_request
+
+```python
+app.remove_chat_join_request(chat_id, user_id)
+```
+optional inputs: 
+
+
+## set_chat_photo
+
+```python
+app.set_chat_photo(chat_id, file)
+```
+optional inputs: 
+
+
+## delete_chat_photo
+
+```python
+app.delete_chat_photo(chat_id)
+```
+optional inputs: 
+
+
+## set_chat_title
+
+```python
+app.set_chat_title(chat_id, title)
+```
+optional inputs: 
