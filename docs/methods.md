@@ -102,3 +102,41 @@ app.promote_chat_member(chat_id, user_id)
 optional inputs: is_anonymous, can_delete_messages, can_restrict_members, can_promote_members, can_invite_users, can_change_info, can_pin_messages
 
 
+## set_admin_custom_title
+
+```python
+app.unban_chat_member(chat_id, user_id, custom_title)
+```
+optional inputs: 
+
+
+## ban_chatsender
+
+```python
+app.ban_chatsender(chat_id, sender_chat_id)
+```
+optional inputs: 
+
+
+## unban_chatsender
+
+```python
+app.unban_chatsender(chat_id, sender_chat_id)
+```
+optional inputs: 
+
+
+## set_chat_permissions
+
+```python
+app.set_chat_permissions(chat_id, permissions)
+```
+optional inputs: 
+
+
+## get_chat_link
+
+```python
+app.get_chat_link(chat_id)
+```
+optional inputs: 
