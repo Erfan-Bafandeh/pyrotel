@@ -196,3 +196,66 @@ optional inputs:
 app.set_chat_title(chat_id, title)
 ```
 optional inputs: 
+
+
+## set_chat_description
+
+```python
+app.set_chat_description(chat_id, description)
+```
+optional inputs: 
+
+
+## pin_message
+
+```python
+app.pin_message(chat_id, message_id)
+```
+optional inputs: disable_notification
+
+
+## unpin_message
+
+```python
+app.unpin_message(chat_id, message_id)
+```
+optional inputs: 
+
+
+## unpin_all_messages
+
+```python
+app.unpin_all_messages(chat_id)
+```
+optional inputs: 
+
+## leave_chat
+
+```python
+app.leave_chat(chat_id)
+```
+optional inputs: 
+
+
+## get_chat_admins
+
+```python
+app.get_chat_admins(chat_id)
+```
+optional inputs: 
+
+
+## get_chat_member_count
+
+```python
+app.get_chat_member_count(chat_id)
+```
+optional inputs: 
+
+
+## get_chat_member_info
+
+```python
+app.get_chat_member_info(chat_id, user_id)
+```
+optional inputs: 
